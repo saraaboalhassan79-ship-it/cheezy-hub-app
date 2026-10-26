@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheezy Hub</title>
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+
+   
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    
+    <link rel="stylesheet" href="./css/all.min.css" />
+
+   
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css" />
+
+   
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+<!-------------------------------home ---------------------------------->
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-transparent  py-3 ">
+      <div class="container ">
+        <!-- (Logo) -->
+        <a class="navbar-brand fw-bold fs-3 text-dark" href="#">
+          Che<span class="text-warning">ezy </span>Hub
+        </a>
+
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+            <li class="nav-item mx-2">
+              <a class="nav-link  fw-semibold text-dark" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-dar; fw-semibold" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-secondary fw-semibold" href="#">Offers</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-secondary fw-semibold" href="#footer">Contact</a>
+            </li>
+          </ul>
+          <div>
+            <form class="d-flex align-items-center" role="search">
+                
+        <div class="input-group">
+          <input type="search" class="form-control form-control-sm border-0 rounded-start-pill px-3 shadow-none" placeholder="Search food..." aria-label="Search" style="background-color: rgba(255, 255, 255, 0.8);">
+          <button class="btn btn-warning btn-sm rounded-end-pill px-3 text-dark fw-bold shadow-sm" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </form>
+          </div>
+    </nav>
+
+
+
+   <!-- Hero Section -->
+    <section class="hero-section py-5 mt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          
+         
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <span class="text-warning fw-semibold d-block mb-2">Click. Order. Enjoy!</span>
+            <h1 class="display-4 fw-bold text-dark mb-3">Your Perfect Burger <br> is Ready!</h1>
+            <p>Every Bite, a Better Mood</p>
+            <p class="text-secondary mb-4">Order now and enjoy unbeatable deals on <br> burgers, sides, Pizza, and drinks!</p>
+            
+            <div class="d-flex align-items-center gap-3">
+              <a href="#" class="btn btn-warning rounded-pill px-4 py-2 fw-semibold text-dark shadow-sm">Order Now</a>
+              <a href="#" class="btn btn-light rounded-pill px-4 py-2 fw-semibold text-dark shadow-sm border d-flex align-items-center gap-2">
+                <i class="fa-solid fa-play fs-6"></i> Order Process
+              </a>
+            </div>
+          </div>
+
+             <div class="col-lg-5 text-center offset-1">
+            <div class="hero-burger-box">
+              <img src="./images/burger.jpg" alt="Burger" />
+            </div>
+          </div>
+        </div>
+        
+        <!------------------------------------------- menue ---------------------------------------->
+       <!-- Menu Section -->
+    <section class="py-5" id="menu">
+      <div class="containerMenue">
+         
+        <ul class="nav nav-pills  mb-5  justify-content-center flex-wrap" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active rounded-pill px-4 fw-semibold bg-white text-dark shadow-sm" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">Main Course</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill px-4 fw-semibold text-secondary bg-white shadow-sm border" id="pills-appetizers-tab" data-bs-toggle="pill" data-bs-target="#pills-appetizers" type="button" role="tab" aria-controls="pills-appetizers" aria-selected="false">Appetizers</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill px-4 fw-semibold text-secondary bg-white shadow-sm border" id="pills-desserts-tab" data-bs-toggle="pill" data-bs-target="#pills-desserts" type="button" role="tab" aria-controls="pills-desserts" aria-selected="false">Desserts</button>
+          </li>
+        </ul>
+
+     
+        <div class="tab-content" id="pills-tabContent">
+          
+         <!-------------------------------main course----------->
+          <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
+            <div class="row g-4">
+              
+              <!-- كارد 1 -->
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+                
+                  <img src="./images/pasta.jpg" class="card-img-top p-2" alt="Pasta" style="height: 180px; object-fit: cover;">
+                  <div class="card-body p-4 bg-white">
+                    <h5 class="card-title fw-bold text-dark">Creamy White Pasta</h5>
+                    <p class="card-text text-secondary small mb-3">Fresh pasta tossed in rich creamy garlic and mushroom sauce.</p>
+                    <div class="text-warning small mb-3">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                      <span class="text-muted ms-1 small">4.5</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-bold fs-5 text-dark">$12.99</span>
+                      <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- كارد 2 -->
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+                  <img src="./images/burger2.jpg" class="card-img-top p-2" alt="Burger" style="height: 180px; object-fit: cover;">
+                  <div class="card-body p-4 bg-white">
+                    <h5 class="card-title fw-bold text-dark">Double Cheese Burger</h5>
+                    <p class="card-text text-secondary small mb-3">Juicy beef patty with double melted cheese and special sauce.</p>
+                    <div class="text-warning small mb-3">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <span class="text-muted ms-1 small">5.0</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-bold fs-5 text-dark">$14.99</span>
+                      <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- كارد 3 -->
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+                  <img src="./images/pasta2.jpg" class="card-img-top p-2" alt="Pizza" style="height: 180px; object-fit: cover;">
+                  <div class="card-body p-4 bg-white">
+                    <h5 class="card-title fw-bold text-dark">Margherita Pizza</h5>
+                    <p class="card-text text-secondary small mb-3">Classic Italian pizza with fresh mozzarella, basil, and tomato sauce.</p>
+                    <div class="text-warning small mb-3">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                     <i class="fa-regular fa-star"></i>
+                      <span class="text-muted ms-1 small">4</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-bold fs-5 text-dark">$10.99</span>
+                      <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- كارد 4 -->
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+                  <img src="./images/crispy.jpg" class="card-img-top p-2" alt="Meal 4" style="height: 180px; object-fit: cover;">
+                  <div class="card-body p-4 bg-white">
+                    <h5 class="card-title fw-bold text-dark">Crispy Chicken Burger</h5>
+                    <p class="card-text text-secondary small mb-3">Crispy fried chicken breast with lettuce and mayo sauce.</p>
+                    <div class="text-warning small mb-3">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star-half-stroke"></i>
+                      <span class="text-muted ms-1 small">4.8</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-bold fs-5 text-dark">$11.99</span>
+                      <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- كارد 5 -->
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+                  <img src="./images/pasta3.jpg" class="card-img-top p-2" alt="Meal 5" style="height: 180px; object-fit: cover;">
+                  <div class="card-body p-4 bg-white">
+                    <h5 class="card-title fw-bold text-dark">Spicy Arrabiata Pasta</h5>
+                    <p class="card-text text-secondary small mb-3">Penne pasta in a spicy tomato and garlic sauce.</p>
+                    <div class="text-warning small mb-3">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star-half-stroke"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <span class="text-muted ms-1 small">3.6</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-bold fs-5 text-dark">$9.99</span>
+                      <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- كارد 6 -->
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+                  <img src="./images/Perfect Pepperoni Pizza.jpg" class="card-img-top p-2" alt="Meal 6" style="height: 180px; object-fit: cover;">
+                  <div class="card-body p-4 bg-white">
+                    <h5 class="card-title fw-bold text-dark">Pepperoni Pizza</h5>
+                    <p class="card-text text-secondary small mb-3">Loaded with spicy pepperoni slices and melted cheese.</p>
+                    <div class="text-warning small mb-3">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <span class="text-muted ms-1 small">4.9</span>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="fw-bold fs-5 text-dark">$13.99</span>
+                      <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!----------------------------------------------- Appetizers------------------------------>
+          <div class="tab-pane fade" id="pills-appetizers" role="tabpanel" aria-labelledby="pills-appetizers-tab" tabindex="0">
+  <div class="row g-4">
+    
+    <!-- كارد 1: البطاطس -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+        <img src="./images/potatos.jpg" class="card-img-top p-2" alt="French Fries" style="height: 180px; object-fit: cover;">
+        <div class="card-body p-4 bg-white">
+          <h5 class="card-title fw-bold text-dark">Golden French Fries</h5>
+          <p class="card-text text-secondary small mb-3">Crispy golden potato fries seasoned to perfection, served hot with ketchup.</p>
+          <div class="text-warning small mb-3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <span class="text-muted ms-1 small">4.9</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold fs-5 text-dark">$3.99</span>
+            <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- كارد 2: الكولا -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+        <img src="./images/max.jpg" class="card-img-top p-2" alt="Ice-Cold Cola" style="height: 180px; object-fit: cover;">
+        <div class="card-body p-4 bg-white">
+          <h5 class="card-title fw-bold text-dark">Ice-Cold Cola</h5>
+          <p class="card-text text-secondary small mb-3">Chilled carbonated soft drink to perfectly refresh and complement your meal.</p>
+          <div class="text-warning small mb-3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="text-muted ms-1 small">5.0</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold fs-5 text-dark">$2.99</span>
+            <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- كارد 3: السلطة -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+        <img src="./images/Salade verte.jpg" class="card-img-top p-2" alt="Fresh Garden Salad" style="height: 180px; object-fit: cover;">
+        <div class="card-body p-4 bg-white">
+          <h5 class="card-title fw-bold text-dark">Fresh Garden Salad</h5>
+          <p class="card-text text-secondary small mb-3">Crisp mixed greens, cherry tomatoes, and cucumbers with our special dressing.</p>
+          <div class="text-warning small mb-3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <span class="text-muted ms-1 small">4.0</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold fs-5 text-dark">$10.99</span>
+            <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- كارد 4: صوابع الجبنة -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+        <img src="./images/mot.jpg" class="card-img-top p-2" alt="Crispy Cheese Sticks" style="height: 180px; object-fit: cover;">
+        <div class="card-body p-4 bg-white">
+          <h5 class="card-title fw-bold text-dark">Crispy Cheese Sticks</h5>
+          <p class="card-text text-secondary small mb-3">Golden-fried mozzarella sticks with a gooey, stretchy melted center.</p>
+          <div class="text-warning small mb-3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <span class="text-muted ms-1 small">4.8</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold fs-5 text-dark">$5.99</span>
+            <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+          <div class="tab-pane fade" id="pills-desserts" role="tabpanel">
+
+                 <div class="row g-4">
+                     <!-- كارد 1:-->
+<div class="col-md-6 col-lg-4">
+      <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+        <img src="./images/cake.jpg" class="card-img-top p-2" alt="French Fries" style="height: 180px; object-fit: cover;">
+        <div class="card-body p-4 bg-white">
+          <h5 class="card-title fw-bold text-dark">Chocolate Lava Cake</h5>
+          <p class="card-text text-secondary small mb-3">Warm chocolate cake with a gooey molten center, served with a scoop of vanilla ice cream</p>
+          <div class="text-warning small mb-3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <span class="text-muted ms-1 small">4.9</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold fs-5 text-dark">$6.99</span>
+            <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 2ا -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+        <img src="./images/chees.jpg" class="card-img-top p-2" alt="Ice-Cold Cola" style="height: 180px; object-fit: cover;">
+        <div class="card-body p-4 bg-white">
+          <h5 class="card-title fw-bold text-dark">Berry Cheesecake</h5>
+          <p class="card-text text-secondary small mb-3">Rich and creamy New York-style cheesecake topped with a glossy sweet berry glaze and fresh fruits.</p>
+          <div class="text-warning small mb-3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span class="text-muted ms-1 small">5.0</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold fs-5 text-dark">$6.99</span>
+            <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+            <!-- card 3-->
+    <div class="col-md-6 col-lg-4">
+      <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden bg-light">
+        <img src="./images/ice.jpg" class="card-img-top p-2" alt="Fresh Garden Salad" style="height: 180px; object-fit: cover;">
+        <div class="card-body p-4 bg-white">
+          <h5 class="card-title fw-bold text-dark">Supreme Ice Cream Bowl</h5>
+          <p class="card-text text-secondary small mb-3">Assorted scoops of rich ice cream drizzled with chocolate and caramel syrup, topped with cookie crumbles.</p>
+          <div class="text-warning small mb-3">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <span class="text-muted ms-1 small">4.0</span>
+          </div>
+          <div class="d-flex justify-content-between align-items-center">
+            <span class="fw-bold fs-5 text-dark">$5.99</span>
+            <a href="#" class="btn btn-warning btn-sm rounded-pill px-3 fw-semibold text-dark shadow-sm">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+</div>
+     
+</section>
+     
+</div>
+ 
+</section>
+
+
+<!-------------------------------------------------------- contact section----------------------------------->
+
+<section>
+    <!-- Contact & Footer Section -->
+    <footer class="contact text-white pt-5 pb-4 mt-5" id="footer">
+      <div class="container">
+        <div class="row g-4 justify-content-between">
+          
+          <!-- العمود الأول: التعريف بالمطعم -->
+          <div class="col-md-4">
+            <h3 class="fw-bold text-warning mb-3">
+              <i class="fa-solid fa-burger me-2"></i>Cheezy Hub
+            </h3>
+            <p class="text-secondary small mb-3">
+              Every Bite, a Better Mood. Order now and enjoy unbeatable deals on burgers, sides, pizza, and drinks!
+            </p>
+            <!-- أيقونات السوشيال ميديا -->
+            <div class="d-flex gap-3 fs-5">
+              <a href="#" class="text-warning text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" class="text-warning text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="text-warning text-decoration-none"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="#" class="text-warning text-decoration-none"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+
+          <!-- working hours- -->
+          <div class="col-md-3">
+            <h5 class="fw-bold text-white mb-3">Working Hours</h5>
+            <p class="text-secondary small mb-1">Monday - Sunday:</p>
+            <p class="fw-semibold mb-3">12:00 PM – 02:00 AM</p>
+            <span class="badge bg-warning text-dark px-3 py-2 rounded-pill fw-semibold">Open Now</span>
+          </div>
+
+          <!-----contact info--->
+          <div class="col-md-4">
+            <h5 class="fw-bold text-white mb-3">Contact Us</h5>
+            <p class="text-secondary small mb-2">
+              <i class="fa-solid fa-location-dot text-warning me-2"></i> Assiut, Egypt
+            </p>
+            <p class="text-secondary small mb-2">
+              <i class="fa-solid fa-phone text-warning me-2"></i> +20 123 456 7890
+            </p>
+            <p class="text-secondary small mb-3">
+              <i class="fa-solid fa-envelope text-warning me-2"></i> support@cheezyhub.com
+            </p>
+          </div>
+
+        </div>
+
+        <hr class="border-secondary my-4">
+
+        <!-- حقوق النشر -->
+        <div class="text-center text-secondary small">
+          <p class="mb-0">© 2026 <strong>Cheezy Hub</strong>. All Rights Reserved</p>
+        </div>
+
+      </div>
+    </footer>
+</section>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
